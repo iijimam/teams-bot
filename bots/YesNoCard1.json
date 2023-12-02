@@ -1,0 +1,23 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "May I search with the number you entered?",
+        "wrap":true
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Yes",
+        "data": { "answer":"yes"}
+    },
+    {
+      "type": "Action.Submit",
+      "title": "No",
+      "data": { "answer":"no"}
+  }
+    ]
+  }

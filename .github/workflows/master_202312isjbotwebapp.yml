@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: '202312ISJBotWebApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CFAD9886ADCB47A5B4DCAFDE124B703D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_00CAD9D7CAFA44E6A90B13B50AC162D9 }}
